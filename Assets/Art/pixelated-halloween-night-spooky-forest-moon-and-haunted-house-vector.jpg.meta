@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pixelated-halloween-night-spooky-forest-moon-and-haunted-house-vector_0: -7360511356067341352
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
