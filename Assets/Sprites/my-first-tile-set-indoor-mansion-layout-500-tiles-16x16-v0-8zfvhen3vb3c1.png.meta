@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      my-first-tile-set-indoor-mansion-layout-500-tiles-16x16-v0-8zfvhen3vb3c1_0: 2019614587311593168
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
