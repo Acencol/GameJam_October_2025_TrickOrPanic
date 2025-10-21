@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 // PlayerCandyHandler - Attach this to your Player GameObject
 // Handles candy slots, input for Z/X, and current interactable
@@ -9,6 +9,7 @@ public class PlayerCandyHandler : MonoBehaviour
 
     public IInteractable currentInteractable; // Set by triggers
 
+    [SerializeField] private CandyDisplay candyDisplay; 
     public CandyType? GetCandy(int slot)
     {
         return (slot == 0) ? slotZ : slotX;
@@ -24,6 +25,12 @@ public class PlayerCandyHandler : MonoBehaviour
         {
             slotX = candy;
         }
+
+        // ← NEW! Update UI immediately
+        if (candyDisplay != null)
+        {
+            candyDisplay.UpdateDisplay(slotZ, slotX);
+        }
     }
 
     private void Update()
@@ -37,5 +44,11 @@ public class PlayerCandyHandler : MonoBehaviour
         {
             currentInteractable.Interact(1, this);
         }
+    }
+
+    // ← NEW! Call this in Start() to initialize UI
+    private void Start()
+    {
+        candyDisplay?.UpdateDisplay(slotZ, slotX);
     }
 }

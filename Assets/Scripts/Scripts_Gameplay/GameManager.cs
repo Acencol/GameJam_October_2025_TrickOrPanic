@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
 
     private int successCount = 0;
     private int score = 0;
-    private int health = 10; // Starting reputation/health - adjust as needed
+    private int health = 5; // Starting reputation/health - adjust as needed
 
     private const float initialSpawnInterval = 15f;
     private const float minSpawnInterval = 5f;

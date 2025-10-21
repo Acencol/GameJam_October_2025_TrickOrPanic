@@ -9,7 +9,7 @@ public class TrickOrTreater : MonoBehaviour
     private SpriteRenderer bodyRenderer;
     private SpriteRenderer requestDisplay;
 
-    private float timer = 1f;
+    private float timer = 60f;
 
     private void Awake()
     {
