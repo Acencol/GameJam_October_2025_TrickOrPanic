@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 87e31989cdd245949ad7881d6633aea9
+guid: 5a14660e5103af04c823a14a6c941486
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6739168886537485261
-    second: GJ_Candy_0
-  - first:
-      213: 5759606023275600684
-    second: GJ_Candy_1
-  - first:
-      213: 8101788242837709991
-    second: GJ_Candy_2
-  - first:
-      213: 5077530425333730266
-    second: GJ_Candy_3
+      213: -1287343519280471594
+    second: CnP_21102025_105029_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -122,89 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GJ_Candy_Red
+      name: CnP_21102025_105029_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 27
-        width: 194
-        height: 209
+        x: 37
+        y: 46
+        width: 1006
+        height: 988
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcb7e6b8566568d50800000000000000
-      internalID: 6739168886537485261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GJ_Candy_Green
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 27
-        width: 201
-        height: 201
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c2bda87992b3eef40800000000000000
-      internalID: 5759606023275600684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GJ_Candy_Blue
-      rect:
-        serializedVersion: 2
-        x: 493
-        y: 29
-        width: 209
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a427c35b755f6070800000000000000
-      internalID: 8101788242837709991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GJ_Candy_Purple
-      rect:
-        serializedVersion: 2
-        x: 721
-        y: 29
-        width: 209
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: adb414a1503077640800000000000000
-      internalID: 5077530425333730266
+      spriteID: 6d1e26dc3ef622ee0800000000000000
+      internalID: -1287343519280471594
       vertices: []
       indices: 
       edges: []
@@ -213,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fc0220b689b30a345967f127e2e915de
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GJ_Candy_Blue: 8101788242837709991
-      GJ_Candy_Green: 5759606023275600684
-      GJ_Candy_Purple: 5077530425333730266
-      GJ_Candy_Red: 6739168886537485261
+      CnP_21102025_105029_0: -1287343519280471594
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

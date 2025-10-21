@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccaaf9e658eaab34e834125c38c45c68, type: 3}
+  m_Name: CandyData
+  m_EditorClassIdentifier: 
+  candySprites:
+  - {fileID: 6739168886537485261, guid: 87e31989cdd245949ad7881d6633aea9, type: 3}
+  - {fileID: 8101788242837709991, guid: 87e31989cdd245949ad7881d6633aea9, type: 3}
+  - {fileID: 5759606023275600684, guid: 87e31989cdd245949ad7881d6633aea9, type: 3}
+  - {fileID: 5077530425333730266, guid: 87e31989cdd245949ad7881d6633aea9, type: 3}

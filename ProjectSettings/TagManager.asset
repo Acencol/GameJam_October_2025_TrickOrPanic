@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - CandyBag
+  - CandyBowl
   layers:
   - Default
   - TransparentFX
@@ -43,6 +45,12 @@ TagManager:
     locked: 0
   - name: decor
     uniqueID: 4003051583
+    locked: 0
+  - name: interactable
+    uniqueID: 2619423771
+    locked: 0
+  - name: candy
+    uniqueID: 3555559175
     locked: 0
   m_RenderingLayers:
   - Default
