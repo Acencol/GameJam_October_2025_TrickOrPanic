@@ -33749,7 +33749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d84993a0f2cc346b3a262de8c155ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  npcPrefab: {fileID: 6136566077502989408, guid: 126bbfbd3f3b08441a4c9d1228bcc673, type: 3}
+  npcPrefab: {fileID: 8943279100218382812, guid: bc7eff57a41adc54999d79a3303a5078, type: 3}
   spawnTags:
   - RedDoor
   - BlueSpawn
@@ -33973,7 +33973,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.66285324, y: 0.87420815}
   m_EdgeRadius: 0
---- !u!1001 &6859690252003101510
+--- !u!1001 &491225320702766669
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -33981,59 +33981,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6136566077502989408, guid: 126bbfbd3f3b08441a4c9d1228bcc673, type: 3}
-      propertyPath: m_Name
-      value: TrickOrTreater
-      objectReference: {fileID: 0}
-    - target: {fileID: 6136566077502989408, guid: 126bbfbd3f3b08441a4c9d1228bcc673, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7899628597983602770, guid: 126bbfbd3f3b08441a4c9d1228bcc673, type: 3}
+    - target: {fileID: 5231212781504251671, guid: bc7eff57a41adc54999d79a3303a5078, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.000578
+      value: -11.94588
       objectReference: {fileID: 0}
-    - target: {fileID: 7899628597983602770, guid: 126bbfbd3f3b08441a4c9d1228bcc673, type: 3}
+    - target: {fileID: 5231212781504251671, guid: bc7eff57a41adc54999d79a3303a5078, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -22.21886
+      value: 0.09424503
       objectReference: {fileID: 0}
-    - target: {fileID: 7899628597983602770, guid: 126bbfbd3f3b08441a4c9d1228bcc673, type: 3}
+    - target: {fileID: 5231212781504251671, guid: bc7eff57a41adc54999d79a3303a5078, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.08727835
+      value: -0.0641013
       objectReference: {fileID: 0}
-    - target: {fileID: 7899628597983602770, guid: 126bbfbd3f3b08441a4c9d1228bcc673, type: 3}
+    - target: {fileID: 5231212781504251671, guid: bc7eff57a41adc54999d79a3303a5078, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7899628597983602770, guid: 126bbfbd3f3b08441a4c9d1228bcc673, type: 3}
+    - target: {fileID: 5231212781504251671, guid: bc7eff57a41adc54999d79a3303a5078, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7899628597983602770, guid: 126bbfbd3f3b08441a4c9d1228bcc673, type: 3}
+    - target: {fileID: 5231212781504251671, guid: bc7eff57a41adc54999d79a3303a5078, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7899628597983602770, guid: 126bbfbd3f3b08441a4c9d1228bcc673, type: 3}
+    - target: {fileID: 5231212781504251671, guid: bc7eff57a41adc54999d79a3303a5078, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7899628597983602770, guid: 126bbfbd3f3b08441a4c9d1228bcc673, type: 3}
+    - target: {fileID: 5231212781504251671, guid: bc7eff57a41adc54999d79a3303a5078, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7899628597983602770, guid: 126bbfbd3f3b08441a4c9d1228bcc673, type: 3}
+    - target: {fileID: 5231212781504251671, guid: bc7eff57a41adc54999d79a3303a5078, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7899628597983602770, guid: 126bbfbd3f3b08441a4c9d1228bcc673, type: 3}
+    - target: {fileID: 5231212781504251671, guid: bc7eff57a41adc54999d79a3303a5078, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8943279100218382812, guid: bc7eff57a41adc54999d79a3303a5078, type: 3}
+      propertyPath: m_Name
+      value: Trick Or Teat
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 126bbfbd3f3b08441a4c9d1228bcc673, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: bc7eff57a41adc54999d79a3303a5078, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -34045,4 +34041,4 @@ SceneRoots:
   - {fileID: 799599375}
   - {fileID: 867059871}
   - {fileID: 1899872013}
-  - {fileID: 6859690252003101510}
+  - {fileID: 491225320702766669}
