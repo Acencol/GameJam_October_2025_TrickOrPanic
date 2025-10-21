@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - RedDoor
+  - BlueDoor
+  - GreenDoor
+  - PurpleDoor
   layers:
   - Default
   - TransparentFX
@@ -43,6 +47,9 @@ TagManager:
     locked: 0
   - name: decor
     uniqueID: 4003051583
+    locked: 0
+  - name: Trick Or Treater
+    uniqueID: 932241681
     locked: 0
   m_RenderingLayers:
   - Default
