@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using TMPro;
 
 // GameManager - Attach to an empty GameObject in the scene
 // Handles spawning, scoring, health, audio
@@ -15,9 +16,17 @@ public class GameManager : MonoBehaviour
     [SerializeField] private AudioClip successSound;
     [SerializeField] private AudioClip failureSound;
     [SerializeField] private AudioClip spawnSound;
-    [SerializeField] private RequestSprites requestSprites;
+    [SerializeField] public RequestSprites requestSprites;
+
+    [Header("UI")]
+    [SerializeField] private TextMeshProUGUI scoreText;
 
     private AudioSource audioSource;
+
+    [SerializeField]
+    private ReputationBarUI reputationBarUI;
+    public float reputation;
+    public float maxReputation;
 
     private int successCount = 0;
     private int score = 0;
@@ -43,7 +52,9 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        UpdateScoreUI();    
         StartCoroutine(SpawnRoutine());
+        reputationBarUI.SetMaxReputation(maxReputation);
     }
 
     private IEnumerator SpawnRoutine()
@@ -93,6 +104,7 @@ public class GameManager : MonoBehaviour
         successCount++;
         score++; // Or adjust points as needed (e.g., score += 10;)
         audioSource.PlayOneShot(successSound);
+        UpdateScoreUI();
         // Optional: Update UI for score
         Debug.Log($"Success! Score: {score}, Successes: {successCount}");
     }
@@ -100,6 +112,7 @@ public class GameManager : MonoBehaviour
     public void OnFailure(TrickOrTreater tot)
     {
         health--;
+        SetReputation(-20f);
         audioSource.PlayOneShot(failureSound);
         // Find doorway and remove from queue
         Doorway doorway = tot.transform.parent?.GetComponent<Doorway>();
@@ -109,13 +122,32 @@ public class GameManager : MonoBehaviour
         }
         Destroy(tot.gameObject);
         // Optional: Update UI for health
-        Debug.Log($"Failure! Health: {health}");
+        //Debug.Log($"Failure! Health: {health}");
         // Optional: Game over if health <= 0
-        if (health <= 0)
+        if (reputation <= 0)
         {
             // Handle game over (e.g., stop spawning, show message)
+            Debug.Log("Game Over!");
             StopAllCoroutines();
             Debug.Log("Game Over!");
+        }
+    }
+
+    public void SetReputation(float reputationChange)
+    {
+
+        reputation += reputationChange;
+        reputation = Mathf.Clamp(reputation, 0, maxReputation);
+
+        reputationBarUI.SetReputation(reputation);
+
+    } //End of SetReputation Method 
+
+    private void UpdateScoreUI()
+    {
+        if (scoreText != null)
+        {
+            scoreText.text = $"Score: {score}";
         }
     }
 }
