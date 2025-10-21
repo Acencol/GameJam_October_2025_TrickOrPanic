@@ -13283,16 +13283,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -4, y: 4, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 17
-      m_TileSpriteIndex: 17
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 16, y: 4, z: 0}
     second:
       serializedVersion: 2
@@ -23829,8 +23819,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 057aa19d2e41a8a408ed43287ca50f17, type: 2}
   - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: 17a5c60ea84abed48bac6e60750d6883, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: b716d3c7e9de0934084977f66b66a70d, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileSpriteArray:
   - m_RefCount: 2093
     m_Data: {fileID: 1343648480, guid: 5a9c9726376d00d4dbc02af08466ecb0, type: 3}
@@ -23866,10 +23856,10 @@ Tilemap:
     m_Data: {fileID: -2065788117, guid: 5a9c9726376d00d4dbc02af08466ecb0, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: 1518613761, guid: 5a9c9726376d00d4dbc02af08466ecb0, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 332166483, guid: 73083bda1e4ec684682a48d129fe7d5a, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
-  - m_RefCount: 2341
+  - m_RefCount: 2340
     m_Data:
       e00: 1
       e01: 0
@@ -23888,7 +23878,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 2341
+  - m_RefCount: 2340
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -24012,7 +24002,6 @@ GameObject:
   - component: {fileID: 867059871}
   - component: {fileID: 867059870}
   - component: {fileID: 867059869}
-  - component: {fileID: 867059868}
   m_Layer: 0
   m_Name: CinemachineCamera
   m_TagString: Untagged
@@ -24020,35 +24009,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &867059868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867059867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f38bda98361e1de48a4ca2bd86ea3c17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Composition:
-    ScreenPosition: {x: 0, y: 0}
-    DeadZone:
-      Enabled: 0
-      Size: {x: 0.2, y: 0.2}
-    HardLimits:
-      Enabled: 0
-      Size: {x: 0.8, y: 0.8}
-      Offset: {x: 0, y: 0}
-  CenterOnActivate: 1
-  TargetOffset: {x: 0, y: 0, z: 0}
-  Damping: {x: 0.5, y: 0.5}
-  Lookahead:
-    Enabled: 0
-    Time: 0
-    Smoothing: 0
-    IgnoreY: 0
 --- !u!114 &867059869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31922,8 +31882,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -291915713
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
