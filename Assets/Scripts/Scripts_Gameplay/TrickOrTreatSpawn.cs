@@ -4,7 +4,7 @@ public class TrickOrTreatSpawn : MonoBehaviour
 {
     [Header("Spawn Settings")]
     public GameObject npcPrefab;
-    public string[] spawnTags = { "RedSpawn", "BlueSpawn", "GreenSpawn", "YellowSpawn" };
+    public string[] spawnTags = { "RedDoor", "BlueDoor", "GreenDoor", "PurpleDoor" };
 
     [Header("Sprite Settings")]
     public Sprite[] possibleSprites;
