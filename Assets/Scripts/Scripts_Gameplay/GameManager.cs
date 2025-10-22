@@ -1,6 +1,7 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
 using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // GameManager - Attach to an empty GameObject in the scene
 // Handles spawning, scoring, health, audio
@@ -59,7 +60,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator SpawnRoutine()
     {
-        yield return new WaitForSeconds(8f); // Initial delay
+        yield return new WaitForSeconds(5f); // Initial delay
 
         while (true)
         {
@@ -127,6 +128,7 @@ public class GameManager : MonoBehaviour
         if (reputation <= 0)
         {
             // Handle game over (e.g., stop spawning, show message)
+            SceneManager.LoadSceneAsync(5);
             Debug.Log("Game Over!");
             StopAllCoroutines();
             Debug.Log("Game Over!");
